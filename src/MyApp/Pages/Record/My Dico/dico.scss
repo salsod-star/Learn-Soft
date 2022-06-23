@@ -1,0 +1,147 @@
+.dic-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #63043e;
+  padding: 40px 0;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 700px;
+  margin: auto;
+}
+
+.searchInput {
+  flex: 1 1;
+  width: 300px;
+  outline: none;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 7px;
+  background-color: #eee;
+  color: #63043e;
+  margin-right: 5px;
+}
+
+.button {
+  padding: 12px 20px;
+  outline: none;
+  border: none;
+  background-color: #2848ff;
+  border-radius: 7px;
+  color: #eee;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.button:hover {
+  background-color: #0c30f8;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+.tab button {
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  flex: 1 1 100%;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.tab button:hover {
+  background-color: #c9b806;
+  color: #fff;
+}
+
+.word-container {
+  max-width: 500px;
+  margin: 40px auto 0;
+  padding: 20px;
+  color: #fff;
+
+  background: rgba(11, 24, 97, 0.9);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.grammar-word {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.phonetic {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.phonetic p {
+  color: #c9b806;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.def-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 20px;
+  width: 90%;
+  margin: 80px auto 50px;
+}
+
+.def-card {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  padding: 20px 15px;
+  flex: 1 1 50%;
+}
+
+.def-card p {
+  font-weight: 600;
+  color: #63043e;
+}
+
+.def-card .list {
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin-top: 10px;
+}
+
+.example {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.example h2 {
+  margin-bottom: 10px;
+}
+
+.example ul {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+.example ul li:not(:last-of-type) {
+  margin-bottom: 7px;
+}

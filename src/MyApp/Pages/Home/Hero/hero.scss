@@ -1,0 +1,25 @@
+.hero {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 0 20px;
+  height: calc(100vh - 64px);
+
+  &-heading {
+    font-size: 50px;
+    color: #363549;
+  }
+
+  &-para {
+    margin: 30px 0;
+    line-height: 1.5;
+  }
+
+  &-image_container {
+    img {
+      width: 100%;
+    }
+  }
+}

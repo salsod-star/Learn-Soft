@@ -1,0 +1,36 @@
+.btn {
+  padding: 15px 20px;
+  color: #fff;
+  background-color: blue;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 15px;
+  max-width: 1200px;
+  width: 98%;
+  margin: auto;
+
+  img {
+    width: 100%;
+  }
+}
+
+.cardImageBox {
+  object-fit: contain;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+
+  &-body {
+    padding: 0 15px 20px;
+  }
+}

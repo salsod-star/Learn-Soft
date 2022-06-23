@@ -1,0 +1,15 @@
+.feature {
+  padding: 120px 0 40px;
+  border-top: 2px solid #dadce0;
+
+  &-header {
+    max-width: 700px;
+    margin: 0 auto 70px;
+    text-align: center;
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+  }
+}
